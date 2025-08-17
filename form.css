@@ -1,0 +1,60 @@
+.main{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 20%;
+    height: 60%;
+    gap:20px;
+    
+}
+body{
+    background-image: url("image.jpg");
+    background-size: cover;
+    border: none;
+
+}
+
+form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+body{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    border-radius: 5px;
+}
+
+form div{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+::placeholder{
+    color: white;
+}
+
+.box span,.box a{
+    padding: 10px;
+}

@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <title>Web Design-1</title>
+
+    <style>
+    body{
+    background-image: url("1.jpg");
+    background-size: cover;
+    }
+    h1{
+        color: white;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        height: 80px;
+    }
+    
+    ul{
+        display:flex;
+        gap:20px;
+        list-style: none;
+        font-size: 15px;
+        }
+
+    button{
+        background-color: rgb(200, 86, 15);
+        color: white;
+        height: 30px;
+        width: 80px;
+    }
+    .ip{
+        border: 2px solid rgb(200, 86, 15);
+    }
+
+
+    .main{
+        display:flex;
+        justify-content:space-around;
+        height: 60%;
+    }
+
+    .box1{
+        width:30%;
+        font-size: 25px;
+    }
+
+    .box1 button{
+        color: black;
+    }
+
+    .box2{
+    width: 40%;
+    height: 85%;
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .box2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    width:100%;
+    height:100%;
+}
+
+    .box2 form input{
+        border: none;
+        border-bottom: 2px solid rgb(200, 86, 15);
+        background-color: black;
+    }
+
+    .box1 button,.box2 button{
+    background-color: rgb(200, 86, 15);
+    color: white;
+    border-radius: 20px;
+}
+
+    .searchbox input{
+        background-color: black;
+        color: white;
+    }
+
+    .searchbox button{
+        border-radius:20px;
+    }
+
+    .formheading{
+        color: orange;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formbottom{
+        text-align: center;
+        font-size: 15px;
+    }
+    ::placeholder{
+         color: whitesmoke;
+         font-size:12px;
+     }
+
+     .log{
+        width:100%;
+     }
+     .box1 p{
+        color: #fff;
+     }
+
+     .formheading{
+        padding: 10px;
+        border-radius:15px;
+     }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <h1 style="color:orangered">PraRoz</h1>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICE</li>
+            <li>DESIGN</li>
+            <li>CONTACT</li>
+        </ul>
+        <div class="searchbox">
+            <input type="text" placeholder="Type To text" class="ip">
+             <button>Search</button>
+        </div>
+    </nav>
+
+        <div class="main">
+            <div class="box1">
+                <br>
+                <h1>Web Design &</h1>
+                <h1 style="color: orangered;"> Development </h1>
+                <h1>Course</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maiores repellendus deserunt maxime, animi iusto totam! Molestias pariatur ipsam </p>
+                 <button>JOIN US</button>
+            </div>
+
+            <div class="box2">
+            <form>
+                <div class="formheading" >Login Here</div>
+                <input type="text" placeholder="Enter Email Here">
+                <input type="password" placeholder="Enter Password Here">
+                <button class="log">Login</button>
+                <div class="formbottom">
+                <p>Don't have an account ?</p> 
+                <p><p style="color: orangered;">Sign up</p> here</p> 
+                <p >Log in with</p>  
+                </div>
+            </form>
+        </div>
+
+        </div>
+        
+       
+
+</body>
+
+</html>

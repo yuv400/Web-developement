@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+body{
+    background-color: #FFECE8;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.navend{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background-color: orangered;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+}
+
+.main{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1,.box2{
+    width: 40%;
+}
+
+.box2 img {
+    width: 100%;               /* make image fill box2 width */
+    height: auto;              /* keep image aspect ratio */
+    background-size: contain;       /* avoid cropping */
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    gap: 80px;
+}
+
+h2{
+    text-align: center;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    gap: 80px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    gap: 80px;
+}
+
+.exclusive{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img:hover{
+    box-shadow: 10px 10px 5px;
+}
